@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 #define delimiter "\n---------------------------------------------\n";
 const int ROWS = 8;
@@ -22,22 +22,22 @@ void main()
 	int arr[ROWS][COLS];
 	double d_arr[ROWS][COLS];
 	cout << delimiter;
-	cout << "Äâóõìåðíûé íåñîðòèðîâàííûé ìàññèâ:(òèïà int) ";
+	cout << "Ð”Ð²ÑƒÑ…Ð¼ÐµÑ€Ð½Ñ‹Ð¹ Ð½ÐµÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:(Ñ‚Ð¸Ð¿Ð° int) ";
 	cout << delimiter;
 	FillRand(arr, m, n);
 	Print(arr, m, n);
 	cout << delimiter;
-	cout << "Äâóõìåðíûé îòñîðòèðîâàííûé ìàññèâ:(òèïà int) ";
+	cout << "Ð”Ð²ÑƒÑ…Ð¼ÐµÑ€Ð½Ñ‹Ð¹ Ð¾Ñ‚ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:(Ñ‚Ð¸Ð¿Ð° int) ";
 	cout << delimiter;
 	Sort_1(arr, m, n);
 	Print(arr, m, n);
 	cout << delimiter;
-	cout << "Äâóõìåðíûé íåñîðòèðîâàííûé ìàññèâ:(òèïà double) ";
+	cout << "Ð”Ð²ÑƒÑ…Ð¼ÐµÑ€Ð½Ñ‹Ð¹ Ð½ÐµÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:(Ñ‚Ð¸Ð¿Ð° double) ";
 	cout << delimiter;
 	FillRand(d_arr, m, n);
 	Print(d_arr, m, n);
 	cout << delimiter;
-	cout << "Äâóõìåðíûé îòñîðòèðîâàííûé ìàññèâ:(òèïà double) ";
+	cout << "Ð”Ð²ÑƒÑ…Ð¼ÐµÑ€Ð½Ñ‹Ð¹ Ð¾Ñ‚ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:(Ñ‚Ð¸Ð¿Ð° double) ";
 	cout << delimiter;
 	Sort_2(d_arr, m, n);
 	Print(d_arr, m, n);
@@ -162,4 +162,4 @@ void Sort_2(T arr[ROWS][COLS], const int m, const int n)
 	}
 }
 
-/*Íàïèñàòü øàáëîííóþ ôóíêöèþ Sort äëÿ ñîðòèðîâêè äâóìåðíûõ ìàññèâîâ.*/
+/*ÐÐ°Ð¿Ð¸ÑÐ°Ñ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð½ÑƒÑŽ Ñ„ÑƒÐ½ÐºÑ†Ð¸ÑŽ Sort Ð´Ð»Ñ ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ¸ Ð´Ð²ÑƒÐ¼ÐµÑ€Ð½Ñ‹Ñ… Ð¼Ð°ÑÑÐ¸Ð²Ð¾Ð².*/
